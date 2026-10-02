@@ -1,4 +1,5 @@
 import UserSearch from "./components/UserSearch"
+import { Toaster } from "sonner"
 
 const App = () => {
 
@@ -7,6 +8,7 @@ const App = () => {
       <div className="container">
         <h1>Github Finder</h1>
         <UserSearch />
+        <Toaster />
       </div>
     </>
   )
